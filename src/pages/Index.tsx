@@ -11,25 +11,7 @@ const Index = () => {
   const { toast } = useToast();
 
   const handleLicenseClick = (licenseType: string) => {
-    // Scroll to top
-    window.scrollTo({ top: 0, behavior: "smooth" });
-    
-    // Show toast notification
-    toast({
-      title: "Redirecionando...",
-      description: `Você será direcionado para o formulário de ${licenseType}.`,
-    });
-
-    // In a real application, this would redirect to the actual form page
-    // window.location.href = "solicitacao.html";
-    
-    // For demo purposes, we'll just show the toast
-    setTimeout(() => {
-      toast({
-        title: "Funcionalidade em desenvolvimento",
-        description: "O formulário de solicitação será implementado em breve.",
-      });
-    }, 1500);
+    window.location.href = "https://www.youtube.com";
   };
 
   const licenses = [
