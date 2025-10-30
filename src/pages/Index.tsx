@@ -11,7 +11,22 @@ const Index = () => {
   const { toast } = useToast();
 
   const handleLicenseClick = (licenseType: string) => {
-    window.location.href = "https://www.youtube.com";
+    switch (licenseType) {
+      case "Licença Temporada":
+        window.location.href = "https://www.youtube.com";
+        break;
+
+      case "Licença 6 Meses":
+        window.location.href = "https://www.tiktok.com/pt-BR/";
+        break;
+
+      case "Licença 12 Meses":
+        window.location.href = "https://www.facebook.com/?locale=pt_BR";
+        break;
+
+      default:
+        break;
+    }
   };
 
   const licenses = [
