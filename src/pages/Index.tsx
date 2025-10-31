@@ -13,15 +13,15 @@ const Index = () => {
   const handleLicenseClick = (licenseType: string) => {
     switch (licenseType) {
       case "Licença Temporada":
-        window.location.href = "https://www.youtube.com";
+        window.location.href = "https://fluxo-blond.vercel.app/";
         break;
 
       case "Licença 6 Meses":
-        window.location.href = "https://www.tiktok.com/pt-BR/";
+        window.location.href = "https://fluxo-blond.vercel.app/";
         break;
 
       case "Licença 12 Meses":
-        window.location.href = "https://www.facebook.com/?locale=pt_BR";
+        window.location.href = "https://fluxo-blond.vercel.app/";
         break;
 
       default:
